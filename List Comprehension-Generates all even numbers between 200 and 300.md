@@ -21,23 +21,16 @@ To write a Python class-based program that generates all even numbers between 20
 
 ## 💻 PROGRAM:
 ```
-student_marks = {
-    "Alice": [85, 90, 78, 92, 88],
-    "Bob": [80, 70, 75, 85, 90],
-    "Charlie": [95, 88, 92, 91, 89],
-    "David": [70, 65, 80, 75, 60]
-}
-
-total_marks = {}
-
-for student, marks in student_marks.items():
-    total = sum(marks)
-    total_marks[student] = total
-
-topper = max(total_marks, key=total_marks.get)
-
-print("Total Marks of Students:", total_marks)
-print("Topper:", topper, "with", total_marks[topper], "marks")
+class Generate:
+    def __init__(self, first,d,last):
+        self.first = first
+        self.d = d
+        self.last=last
+    def Ap_generate(self):
+        L=[i for i in range(self.first,self.last+1,self.d)]
+        return L
+Series = Generate(200,2,301)
+print(Series.Ap_generate())
 ```
 
 ## OUTPUT:
