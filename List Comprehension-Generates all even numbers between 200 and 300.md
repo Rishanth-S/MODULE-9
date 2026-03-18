@@ -34,7 +34,7 @@ print(Series.Ap_generate())
 ```
 
 ## OUTPUT:
-<img width="1681" height="861" alt="447321938-011841fe-58a5-421c-8730-beaec95d76d5" src="https://github.com/user-attachments/assets/c0dbe8b6-fd34-439f-84cc-47ef86649d27" />
+<img width="1225" height="174" alt="image" src="https://github.com/user-attachments/assets/2595ff4a-1435-4f9c-9b9e-d9012164a7c6" />
 
 ## RESULT:
 
